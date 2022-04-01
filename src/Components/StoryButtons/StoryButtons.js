@@ -30,12 +30,14 @@ export default class StoryButtons extends React.Component{
             <div className='story-buttons-container'>
 
                 <div className='story-button'>
-                    <button onClick={this.handleOnClick}>A</button>
+                    <button onClick={this.handleOnClick}
+                            disabled={this.props.pointer === "5a" || this.props.pointer === "5b"}>A</button>
                     <p>{this.props.buttonTextA}</p>
                 </div>
 
                 <div className='story-button'>
-                    <button onClick={this.handleOnClick}>B</button>
+                    <button onClick={this.handleOnClick}
+                            disabled={this.props.pointer === "5a" || this.props.pointer === "5b"}>B</button>
                     <p>{this.props.buttonTextB}</p>
                 </div>
 
