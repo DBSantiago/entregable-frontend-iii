@@ -1,0 +1,12 @@
+.story-card{
+    /* border: 3px solid red; */
+
+    background-color: #0F0F11;
+    color: #FAFAFA;
+
+    padding: 3% ;
+
+    border: 1px #FAFAFA solid;
+    border-radius: 20px;
+    
+}

@@ -27,14 +27,14 @@ export default class StoryButtons extends React.Component{
 
     render(){
         return (
-            <div>
+            <div className='story-buttons-container'>
 
-                <div>
+                <div className='story-button'>
                     <button onClick={this.handleOnClick}>A</button>
                     <p>{this.props.buttonTextA}</p>
                 </div>
 
-                <div>
+                <div className='story-button'>
                     <button onClick={this.handleOnClick}>B</button>
                     <p>{this.props.buttonTextB}</p>
                 </div>

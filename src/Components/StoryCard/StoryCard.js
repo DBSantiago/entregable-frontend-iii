@@ -71,7 +71,7 @@ export default class StoryCard extends React.Component {
     render(){
 
         return (
-            <div>
+            <div className='story-card'>
                 <StoryText text={this.state.text}/>
                 <StoryButtons newSelection={this.newSelection}
                               changeText={this.changeText}

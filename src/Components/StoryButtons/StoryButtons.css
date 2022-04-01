@@ -1,0 +1,31 @@
+.story-buttons-container {
+    /* border: 2px green solid; */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.story-button{
+
+    margin: 10px 30px;
+   
+}
+/*dh homepage purple #6752B5*/
+/*dh homepage gray ##18181B*/
+/*dh homepage darkgray #0F0F11*/
+
+button {
+    background-color: #6752B5;
+    color: #FAFAFA;
+    padding: 5px 15px;
+    border: 2px #6752B5 solid;
+    border-radius: 5px;
+}
+
+button:hover{
+    cursor: pointer;
+    color: #6752B5;
+    background-color: #FAFAFA;
+}
