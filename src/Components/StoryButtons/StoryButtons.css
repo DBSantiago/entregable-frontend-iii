@@ -26,3 +26,8 @@ button:hover {
   color: #6752b5;
   background-color: #fafafa;
 }
+
+button[disabled]{
+  visibility: hidden;
+}
+
