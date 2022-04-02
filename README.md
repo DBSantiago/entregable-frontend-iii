@@ -1,3 +1,7 @@
+# El proyecto está subido a Netlify en [este link](https://calm-puffpuff-f26b89.netlify.app/).
+
+Dejo todo este README.md que viene con create-react-app por las dudas.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
