@@ -1,12 +1,11 @@
-.story-card{
-    /* border: 3px solid red; */
+.story-card {
+  /* border: 3px solid red; */
 
-    background-color: #0F0F11;
-    color: #FAFAFA;
+  background-color: #0f0f11;
+  color: #fafafa;
 
-    padding: 3% ;
+  padding: 3%;
 
-    border: 1px #FAFAFA solid;
-    border-radius: 20px;
-    
+  border: 1px #fafafa solid;
+  border-radius: 20px;
 }
